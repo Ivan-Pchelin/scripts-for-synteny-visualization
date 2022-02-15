@@ -12,7 +12,7 @@ Here are some Python scripts needed to prepare nucleotide sequence data for anal
 ### Analysis
 1. **prepare_for_prokka.py** creates a folder tree and generates the command for Prokka software. After this step, Prokka analysis is launched. https://github.com/tseemann/prokka
 2. **convert_to_Synima.py** deletes from the working folder and sub-folders everything except for itself and files needed for Synima. It also performs some formatting of the data. The instructions for Synima are generated. https://github.com/rhysf/Synima
-3. Once the general structure of the data is revealed, **fetch_accnos.py** can be run to prepare a TXT file with FASTA headers. This list can be used at the final stage of Synima analysis with an -x option. Once Synima created a file with matches, the final step of visualization can be launched independently.
+3. With the general structure of the data is revealed, **fetch_accnos.py** can be run to prepare a TXT file with FASTA headers. This list can be used at the final stage of Synima analysis with an -x option. Once Synima created a file with matches, the final step of visualization can be launched independently.
 
 ### GC-content
 **global_GC_content.py** can be used to calculate the distribution of coding sequences according to their GC-content and **refine_annotations_by_GCV.py** prepares four partial datasets. If use refine_annotations_by_GCV.py, please set the interquartile boundaries within the code.  
