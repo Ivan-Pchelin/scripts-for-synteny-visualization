@@ -7,8 +7,8 @@ Here are some Python scripts needed to prepare nucleotide sequence data for anal
 3. **rename_fasta.py** can be used to rename the sequences in the file. The matches between access numbers and names are written manually to rename.txt. The script is launched from the folder containing the file with sequences and the file rename.txt. Rename.txt is formatted in the following way:
 
 ```
-\>AP009390.1	>Enterococcus_phage_phiEF24C
-\>AP018714.1	>Enterococcus_phage_phiEF17H
+>AP009390.1	>Enterococcus_phage_phiEF24C
+>AP018714.1	>Enterococcus_phage_phiEF17H
 ```
 
 ### Analysis
