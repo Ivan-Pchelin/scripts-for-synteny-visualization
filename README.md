@@ -13,7 +13,7 @@ Here are some Python scripts needed to prepare nucleotide sequence data for anal
 
 ### Analysis
 1. **prepare_for_prokka.py** creates a folder tree and generates the commands for Prokka software. After this step, Prokka analysis is launched. https://github.com/tseemann/prokka
-2. **convert_to_Synima.py** deletes everything except for itself and the files needed for Synima from the working folder and sub-folders. It also performs some formatting of the data. The instructions for Synima as well as Repo_spec.txt are generated. https://github.com/rhysf/Synima
+2. **prepare_for_synima.py** deletes everything except for itself and the files needed for Synima from the working folder and sub-folders. It also performs some formatting of the data. The instructions for Synima as well as Repo_spec.txt are generated. https://github.com/rhysf/Synima
 3. To create a graph with the genomes aligned in a pre-defined order, the -x option is used at the final stage of Synima analysis. The list of FASTA headers to use with the option can be prepared by running **fetch_accnos.py**.
 
 ### GC-content
