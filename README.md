@@ -6,9 +6,9 @@ Here are some Python scripts needed to prepare nucleotide sequence data for anal
 2. *For circular genomes*, determine a common starting sequence. Graphic Summary of the BLAST results can be helpful to approximately determine the coordinates of a region of homology. In the GenBank view mode, from one of the genomes a protein-coding sequence in this region can be picked and used in a BLAST search. The search results for this short sequence along with genomic FASTA are taken by **common_start.py** as input. The script is launched from the folder containing the files with sequences. It re-writes all sequences so that they start from the determined homologous region. The script expects to find all short homologuos fragments being oriented in the same direction.
 3. **rename_fasta.py** can be used to rename the sequences in the file. The matches between access numbers and names are written manually to rename.txt. The script is launched from the folder containing the file with sequences and the file rename.txt. Rename.txt is formatted in the following way:
 
->AP009390.1	>Enterococcus_phage_phiEF24C
-
->AP018714.1	>Enterococcus_phage_phiEF17H
+>>AP009390.1	>Enterococcus_phage_phiEF24C
+>
+>>AP018714.1	>Enterococcus_phage_phiEF17H
 
 ### Analysis
 1. **prepare_for_prokka.py** creates a folder tree and generates the command for Prokka software. After this step, Prokka analysis is launched. https://github.com/tseemann/prokka
