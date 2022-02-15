@@ -17,4 +17,4 @@ Here are some Python scripts needed to prepare nucleotide sequence data for anal
 3. When the general structure of the data is revealed, **fetch_accnos.py** can be run to prepare a TXT file with FASTA headers. This list can be used at the final stage of Synima analysis with an -x option. Once Synima created a file with matches, the final step of visualization can be launched independently.
 
 ### GC-content
-**global_GC_content.py** can be used to calculate the distribution of coding sequences according to their GC-content and **refine_annotations_by_GCV.py** prepares four partial datasets. If use refine_annotations_by_GCV.py, please set the interquartile boundaries within the code.  
+**global_GC_content.py** can be used to calculate the distribution of coding sequences according to their GC-content and **refine_annotations_by_GCV.py** prepares four partial datasets for Synima. If use refine_annotations_by_GCV.py, please set the interquartile boundaries within the code.  
