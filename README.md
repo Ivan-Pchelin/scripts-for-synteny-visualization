@@ -8,7 +8,6 @@ Here are some Python scripts needed to prepare nucleotide sequence data for anal
 
 ```
 \>AP009390.1	>Enterococcus_phage_phiEF24C
-
 \>AP018714.1	>Enterococcus_phage_phiEF17H
 ```
 
