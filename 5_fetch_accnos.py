@@ -66,7 +66,7 @@ if decision_et == 'n':
     with open ('found_accessions.txt', 'w') as ouf:
         start = True
         for i in outlist:
-            if start != True
+            if start != True:
                 ouf.write(',')
             start = False
             ouf.write(i)
